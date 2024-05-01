@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="locationstyle.css">
+    <link rel="stylesheet" href="reportstyle.css">
+</head>
+<body bgcolor="lightblue">
+    <div class="header">
+        <img src="C:\Users\Dell\Downloads\PawsomeAdoptions (1).png" alt="Pawsome Adoptions" class="logo">
+        <div class="navigation">
+            <a href="home.html" class="nav-link">HOME</a>
+            <a href="location.html" class="nav-link">LOCATION</a>
+            <a href="breed.html" class="nav-link">BREED</a>
+            <a href="report.html" class="nav-link">REPORT</a>
+            <a href="about.html" class="nav-link">ABOUT</a>
+        </div>
+    </div><br>
+    <div class="strip">
+        <p class="text1">REPORT</p>
+    </div>
+</body>
+<p>
+    <center><h1 style="font-family: cursive; font-size:5em;">Give your Dog for Adoption</h1>
+        <h1 style="font-family: cursive;">Report a case of a dog that you want to put up for adoption.</h1></center><HR style="border-top: 2px solid black;">
+</p>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <!-- Form -->
+    <div>
+        <h1 style="font-family: cursive;"> 
+            <form action="/give_dog_up_for_adoption" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="contact_number">Contact Number:</label>
+            <input type="tel" id="contact_number" name="contact_number" required><br>
+            
+            <label for="dog_name">Name of the Dog:</label>
+            <input type="text" id="dog_name" name="dog_name"><br>
+            
+            <label for="breed">Breed:</label>
+            <input type="text" id="breed" name="breed" required><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+            
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+                <option value="" disabled selected>Choose</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="" disabled selected>Choose</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select><br>
+            
+            <label for="vaccinated">Vaccinated:</label>
+            <select id="vaccinated" name="vaccinated">
+                <option value="" disabled selected>Choose</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="partly">Partly</option>
+            </select><br>
+            
+            <label for="trained">Trained:</label>
+            <select id="trained" name="trained">
+                <option value="" disabled selected>Choose</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="don't know">Don't Know</option>
+            </select><br>
+            
+            <label for="trained">Description:</label>
+            <input type="text" id="username" name="username" style="height: 80px; width: 500px;"><br>
+            
+            <button type="submit" style="font-family: cursive; font-size: 20px; height: 50px; width: 250px;">Adopt My Dog</button>
+        </form></h1>
+    </div>
+    <img src="C:\Users\Dell\Documents\demoweb\Bg.jpg" alt="Dog Image" style="width: 800px; height: 900px; margin-left: 250px;">
+</div>
+<br>
+<div class="end-section">
+    <div class="left-section">
+        <h1 style="font-family: cursive; color: greenyellow;"><u>Connect</u></h1>
+        <h2 style="color: greenyellow; font-family: cursive;"><p>Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+        <p>Email</p>
+        <p>Pet Products</p></h2>
+    </div>
+    <div class="center-section">
+        <h1 style="font-family: cursive; color: greenyellow;"><u>Dog Parenting</u></h1>
+        <h2 style="color: greenyellow; font-family: cursive;">Puppy</p>
+        <p>Adult Dog</p>
+        <p>Senior Dog</p>
+        <p>Popular Tools</p>
+        <p>Discover Dog Services</p></h2>
+    </div>
+    <div class="right-section">
+        <h1 style="font-family: cursive; color: greenyellow;"><u>Resources</u></h1>
+        <h2 style="color: greenyellow; font-family: cursive;"><p>Dry Dog Food</p>
+        <p>Wet Dog Food</p>
+        <p>Dog Dental Care</p>
+        <p>Dog Treats</p>
+        <p>Dog Grooming Services</p></h2>  
+    </div>
+</div>
+</html>

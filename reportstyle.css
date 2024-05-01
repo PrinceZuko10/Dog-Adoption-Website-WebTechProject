@@ -1,0 +1,18 @@
+form {
+    max-width: 400px;
+    margin: auto;
+}
+label {
+    display: block;
+    text-align: left;
+}
+input, select {
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom:20px; /* Adjusted margin-top for all input/select elements */
+}
+select {
+    margin-bottom: 20px; /* Adjusted margin-top for select elements */
+}

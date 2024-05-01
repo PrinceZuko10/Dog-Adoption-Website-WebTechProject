@@ -1,0 +1,95 @@
+
+.header {
+  background-color: grey;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.strip {
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: greenyellow;
+  font-family: cursive;
+}
+
+
+.logo {
+  width: 400px;
+  height: 100px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 30px;
+  font-weight: bold;
+  color: greenyellow;
+  text-decoration: none;
+  font-family: Scriptina, cursive;
+  margin: 0 40px; 
+}
+.header {
+  font-size: 50px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50;
+  flex-direction: row; 
+  margin-bottom: 50px;
+}
+
+.image-container {
+  display: flex;
+  
+}
+.image {
+  margin: 0 20px;
+  animation: pulse 2s infinite alternate; 
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+  .end-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+.left-section, .center-section, .right-section {
+    flex-basis: 30%; /* Adjust the width as needed */
+}
+
+.left-section, .right-section {
+    text-align: left;
+}
+
+.center-section {
+    text-align: center;
+}
+
+.right-section {
+    text-align: right;
+}

@@ -1,0 +1,20 @@
+
+        .header h3 {
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text {
+            flex: 1;
+            text-align: left;
+            font-family: cursive;
+            padding: 20px;
+        }
+        .image1 {
+            flex: 1;
+            text-align: center;
+        }
+   
